@@ -1,9 +1,9 @@
 package com.laptrinhjavaweb.enums;
 
 public enum BuildingTypeEnum {
-	TAN_TRET("Tầng Trệt"),
+	TAN_TRET("Tầng trệt"),
     NGUYEN_CAN("Nguyên Căn"),
-    APNIC("Nội Thất");
+    APNIC("Nội thất");
  
 
     private String value;

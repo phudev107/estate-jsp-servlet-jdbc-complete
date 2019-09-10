@@ -2,8 +2,10 @@ package com.laptrinhjavaweb.entity;
 
 import com.laptrinhjavaweb.annotation.Column;
 import com.laptrinhjavaweb.annotation.Entity;
+import com.laptrinhjavaweb.annotation.Table;
 
 @Entity
+@Table(name="assignmentbuilding")
 public class AssignmentBuildingEntity {
 	@Column(name="id")
 	private Long id;
